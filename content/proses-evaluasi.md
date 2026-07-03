@@ -7,8 +7,13 @@
 <p class="subtitle">Dalam melakukan evaluasi kinerja pegawai ASN pada unit/satuan kerja.</p>
 
 <ol class="steps">
+  <li><b>Pengisian Realisasi Hasil Kerja oleh Pegawai</b> — pegawai mengisi Realisasi Capaian
+  masing-masing Indikator Kinerja Individu (IKI) dan melampirkan Link Bukti Dukung pada
+  Aplikasi E-Kinerja. Pastikan Bukti dukung relevan dengan uraian dan target IKI yang ditetapkan. Pastikan juga bahwa Link/tautan bukti dukung dapat diakses, minimal sebagai viewer.
+  </li>
   <li><b>Pemberi pertimbangan (atasan langsung)</b> — memberikan pertimbangan terhadap
-  progres capaian hasil kerja dan perilaku pegawai secara obyektif.</li>
+  progres dan kualitas capaian hasil kerja serta hasil observasi perilaku pegawai secara
+  obyektif berdasarkan realisasi yang telah diisi pegawai.</li>
   <li><b>Pimpinan unit/satuan kerja</b> — melakukan panel kalibrasi internal unit/satuan
   kerja bersama pemberi pertimbangan, sesuai Panduan Panel Kalibrasi Kinerja.</li>
   <li><b>Pejabat penilai kinerja</b> — melakukan penilaian kinerja pegawai berdasarkan hasil

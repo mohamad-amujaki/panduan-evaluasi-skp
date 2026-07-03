@@ -14,7 +14,7 @@ const SECTION_MAP = [
     file: 'index.md',
     group: 'RINGKASAN',
     id: 'ringkasan',
-    title: 'Evaluasi Kinerja Triwulan II Tahun 2026',
+    title: 'Evaluasi Kinerja Triwulan II',
   },
   {
     file: 'ketentuan-kinerja.md',
@@ -65,7 +65,7 @@ const SECTION_MAP = [
     group: 'REFERENSI',
     sections: [
       { id: 'contoh-surat', title: 'Contoh Surat Keterangan', headingLevel: 2 },
-      { id: 'timeline', title: 'Garis Waktu Ringkas', headingLevel: 2 },
+      { id: 'timeline', title: 'Timeline Ringkas', headingLevel: 2 },
     ],
   },
 ];
