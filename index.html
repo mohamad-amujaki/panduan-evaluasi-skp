@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panduan Evaluasi Kinerja Pegawai ASN — Triwulan II 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav id="sidebar">
+    <div class="brand">
+      <img src="assets/logo-kemenkes.png" alt="Kemenkes RI" class="brand-logo">
+      <div class="brand-text">
+        <div class="t1">Kemenkes RI</div>
+        <div class="t2">Panduan Evaluasi Kinerja</div>
+      </div>
+    </div>
+    <div id="navContainer"></div>
+  </nav>
+
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <div id="main">
+    <div id="topbar">
+      <div class="topbar-left">
+        <div class="crumb"><b id="crumbCurrent">Ringkasan</b></div>
+      </div>
+      <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" class="search-input" id="searchInput" placeholder="Cari konten..." autocomplete="off">
+        <span class="search-kbd">/</span>
+      </div>
+      <div class="src-tag">Surat No. KP.02.04/A/14795/2026</div>
+    </div>
+    <div id="content"></div>
+  </div>
+
+  <button id="mobileToggle" aria-label="Buka navigasi">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M3 12h18M3 6h18M3 18h18"/>
+    </svg>
+    Daftar Isi
+  </button>
+
+  <button id="backToTop" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <div class="kbd-hint" id="kbdHint"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
