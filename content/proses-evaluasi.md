@@ -17,7 +17,7 @@
   <li><b>Pimpinan unit/satuan kerja</b> — melakukan panel kalibrasi internal unit/satuan
   kerja bersama pemberi pertimbangan, sesuai Panduan Panel Kalibrasi Kinerja.</li>
   <li><b>Pejabat penilai kinerja</b> — melakukan penilaian kinerja pegawai berdasarkan hasil
-  panel kalibrasi kinerja yang telah dilakukan, paling lambat <b>tanggal 15 Juli 2026.</b></li>
+  panel kalibrasi kinerja yang telah dilakukan, paling lambat tanggal 15 Juli 2026. </li>
 </ol>
 
 <div class="callout">

@@ -30,7 +30,7 @@ const SECTION_MAP = [
     group: 'PROSES EVALUASI',
     sections: [
       { id: 'tahapan', title: 'Tahapan Evaluasi Kinerja', headingLevel: 2 },
-      { id: 'konfirmasi', title: 'Konfirmasi & Keberatan Pegawai', headingLevel: 2 },
+      { id: 'konfirmasi', title: 'Konfirmasi & Keberatan', headingLevel: 2 },
       { id: 'dialog-tukin', title: 'Dialog Kinerja & Tunjangan', headingLevel: 2 },
     ],
   },
@@ -38,7 +38,7 @@ const SECTION_MAP = [
     file: 'panel-kalibrasi.md',
     group: 'PANEL KALIBRASI',
     sections: [
-      { id: 'panel-umum', title: 'Ketentuan Umum Panel Kalibrasi', headingLevel: 2 },
+      { id: 'panel-umum', title: 'Ketentuan Umum', headingLevel: 2 },
       { id: 'panel-peserta', title: 'Peserta & Tahapan Panel', headingLevel: 2 },
       { id: 'panel-fokus', title: 'Fokus Pembahasan Panel', headingLevel: 2 },
       {

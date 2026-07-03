@@ -50,11 +50,11 @@ penentuan komposisi distribusi di tiap unit organisasi dan penentuan kelompok ha
 
 ---
 
-## Anomali Distribusi Triwulan I 2026
+## Anomali Distribusi Triwulan I Tahun 2026
 
 <span class="eyebrow">Poin 2</span>
 
-<h1 class="title">Anomali Distribusi Triwulan I 2026</h1>
+<h1 class="title">Anomali Distribusi Triwulan I Tahun 2026</h1>
 
 <p class="subtitle">Hasil evaluasi kinerja pegawai ASN triwulan I tahun 2026 menunjukkan masih
 terdapat anomali distribusi predikat kinerja pegawai pada unit/satuan kerja.</p>

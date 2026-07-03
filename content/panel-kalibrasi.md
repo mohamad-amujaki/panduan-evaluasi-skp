@@ -1,6 +1,6 @@
 ## Ketentuan Umum Panel Kalibrasi
 
-<span class="eyebrow">Lampiran II · Bagian A</span>
+<span class="eyebrow">Lampiran · Bagian A</span>
 
 <h1 class="title">Panduan Panel Kalibrasi Kinerja Pegawai</h1>
 
@@ -16,10 +16,7 @@
   dan dapat dipadukan dengan data lainnya, seperti data presensi, penghargaan, pelanggaran
   disiplin, dll.</li>
   <li><b>Output yang diunggah</b> — Hasil panel kalibrasi kinerja pegawai diunggah ke
-  Aplikasi E-Kinerja melalui akun pimpinan unit/satuan kerja, terdiri dari:
-    <ul style="margin-top:8px;">
-      <li>File pemetaan dan pemeringkatan kinerja pegawai pada kelompok K1, K2, dan K3.</li>
-      <li>Surat keterangan pelaksanaan panel kalibrasi kinerja yang ditandatangani oleh
+  Aplikasi E-Kinerja melalui akun pimpinan unit/satuan kerja, terdiri dari: 1) File pemetaan dan pemeringkatan kinerja pegawai pada kelompok K1, K2, dan K3. dan 2) Surat keterangan pelaksanaan panel kalibrasi kinerja yang ditandatangani oleh
       pimpinan unit/satuan kerja.</li>
     </ul>
   </li>
@@ -71,7 +68,7 @@
 
 <p>Pegawai yang <b>wajib</b> menjadi fokus diskusi meliputi:</p>
 <ol class="steps">
-  <li><b>Pegawai dengan IKI jenis "beyond"</b> — indikator kinerja individu di atas standar biasa.</li>
+  <li><b>Pegawai dengan IKI jenis "beyond"</b> — indikator kinerja individu yang bernilai tambah dalam pencapaian kinerja organisasi.</li>
   <li><b>Pegawai yang diusulkan berpredikat "Sangat Baik"</b> — memastikan standar predikat tertinggi konsisten.</li>
   <li><b>Pegawai yang diusulkan "Butuh Perbaikan", "Kurang", atau "Sangat Kurang"</b> —
   karena paling membutuhkan pengujian bukti dan penyamaan standar.</li>
