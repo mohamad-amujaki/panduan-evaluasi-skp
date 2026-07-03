@@ -8,12 +8,40 @@
 kelompok predikat kinerja.</p>
 
 <table>
-  <tr><th>Predikat</th><th>Keterangan Singkat</th></tr>
-  <tr><td><span class="badge sb">Sangat Baik</span></td><td>Hasil kerja & perilaku kerja di atas ekspektasi</td></tr>
-  <tr><td><span class="badge b">Baik</span></td><td>Hasil kerja & perilaku kerja sesuai/di atas ekspektasi</td></tr>
-  <tr><td><span class="badge bp">Butuh Perbaikan</span></td><td>Hasil kerja di bawah ekspektasi, perilaku sesuai/di atas ekspektasi</td></tr>
-  <tr><td><span class="badge k">Kurang</span></td><td>Perilaku kerja di bawah ekspektasi (misconduct)</td></tr>
-  <tr><td><span class="badge sk">Sangat Kurang</span></td><td>Hasil kerja & perilaku kerja di bawah ekspektasi</td></tr>
+  <tr>
+    <th>Predikat</th>
+    <th>Keterangan Singkat</th>
+  </tr>
+  <tr>
+    <td><span class="badge sb">Sangat Baik</span></td>
+    <td>Hasil kerja pegawai di atas ekspektasi dan perilaku kerja pegawai di atas ekspektasi.</td>
+  </tr>
+  <tr>
+    <td><span class="badge b">Baik</span></td>
+    <td>
+      1. Hasil kerja pegawai di atas ekspektasi dan perilaku kerja pegawai sesuai ekspektasi.<br>
+      2. Hasil kerja pegawai sesuai ekspektasi dan perilaku kerja pegawai sesuai ekspektasi.<br>
+      3. Hasil kerja pegawai sesuai ekspektasi dan perilaku kerja pegawai di atas ekspektasi.
+    </td>
+  </tr>
+  <tr>
+    <td><span class="badge bp">Butuh Perbaikan</span></td>
+    <td>
+      1. <b>Hasil kerja pegawai di bawah ekspektasi</b> dan perilaku kerja pegawai di atas ekspektasi.<br>
+      2. <b>Hasil kerja pegawai di bawah ekspektasi</b> dan perilaku kerja pegawai sesuai ekspektasi.
+    </td>
+  </tr>
+  <tr>
+    <td><span class="badge k">Kurang</span></td>
+    <td>
+      1. Hasil kerja pegawai di atas ekspektasi dan <b>perilaku kerja pegawai di bawah ekspektasi.</b><br>
+      2. Hasil kerja pegawai sesuai ekspektasi dan <b>perilaku kerja pegawai di bawah ekspektasi.</b>
+    </td>
+  </tr>
+  <tr>
+    <td><span class="badge sk">Sangat Kurang</span></td>
+    <td>Hasil kerja dan perilaku kerja di bawah ekspektasi.</td>
+  </tr>
 </table>
 
 <p>Kelima predikat ini menjadi dasar seluruh proses evaluasi kinerja triwulanan, termasuk
@@ -57,9 +85,21 @@ pimpinan tinggi madya melalui dashboard Aplikasi E-Kinerja.</p>
 <p class="subtitle">Berlaku pada masing-masing unit organisasi JPT Madya (Eselon I).</p>
 
 <div class="grid-cards">
-  <div class="stat-card"><div class="num">≤ 25%</div><div class="lbl">Sangat Baik</div><div class="sub">Batas maksimal proporsi pegawai berpredikat Sangat Baik per unit Eselon I</div></div>
-  <div class="stat-card"><div class="num">≤ 70%</div><div class="lbl">Baik</div><div class="sub">Batas maksimal proporsi pegawai berpredikat Baik per unit Eselon I</div></div>
-  <div class="stat-card"><div class="num">≥ 5%</div><div class="lbl">Butuh Perbaikan + Kurang + Sangat Kurang</div><div class="sub">Batas minimal total proporsi tiga predikat terendah</div></div>
+  <div class="stat-card">
+    <div class="num">≤ 25%</div>
+    <div class="lbl">Sangat Baik</div>
+    <div class="sub">Batas maksimal proporsi pegawai berpredikat Sangat Baik per unit Eselon I</div>
+  </div>
+  <div class="stat-card">
+    <div class="num">≤ 70%</div>
+    <div class="lbl">Baik</div>
+    <div class="sub">Batas maksimal proporsi pegawai berpredikat Baik per unit Eselon I</div>
+  </div>
+  <div class="stat-card">
+    <div class="num">≥ 5%</div>
+    <div class="lbl">Butuh Perbaikan + Kurang + Sangat Kurang</div>
+    <div class="sub">Batas minimal total proporsi tiga predikat terendah</div>
+  </div>
 </div>
 
 <div class="callout warn">

@@ -286,7 +286,7 @@ h1.title{
   font-weight:800;
   letter-spacing:-0.02em;
 }
-.subtitle{color:var(--color-text-secondary);font-size:0.95rem;margin:0 0 28px;max-width:600px;line-height:1.6;}
+.subtitle{color:var(--color-text-secondary);font-size:0.95rem;margin:0 0 28px;line-height:1.6;}
 
 h2{
   font-size:1.15rem;
@@ -470,7 +470,7 @@ ol.steps li b{color:var(--color-text);display:block;margin-bottom:2px;font-weigh
    BACK TO TOP
    ============================================ */
 #backToTop{
-  position:fixed;bottom:24px;right:24px;
+  position:fixed;bottom:80px;right:24px;
   width:40px;height:40px;
   border-radius:50%;
   background:var(--color-primary);
@@ -534,6 +534,71 @@ ol.steps li b{color:var(--color-text);display:block;margin-bottom:2px;font-weigh
   pointer-events:none;
 }
 .kbd-hint.visible{opacity:1;visibility:visible;}
+
+/* ============================================
+   WHATSAPP FLOATING BUTTON
+   ============================================ */
+.wa-float{
+  position:fixed;
+  bottom:24px;right:24px;
+  display:flex;align-items:center;gap:8px;
+  background:#25D366;
+  color:#fff;
+  padding:12px 18px 12px 14px;
+  border-radius:var(--radius-pill);
+  text-decoration:none;
+  font-size:13px;
+  font-weight:600;
+  box-shadow:0 4px 12px rgba(37,211,102,0.35);
+  z-index:30;
+  transition:all var(--transition-base);
+  /* Fade in + slide up animation */
+  opacity:0;
+  transform:translateY(20px);
+  animation:waSlideUp .5s ease 1s forwards;
+}
+@keyframes waSlideUp{
+  to{opacity:1;transform:translateY(0);}
+}
+.wa-float:hover{
+  background:#1DA851;
+  box-shadow:0 6px 20px rgba(37,211,102,0.45);
+  transform:translateY(-2px);
+}
+.wa-float:hover .wa-tooltip{opacity:1;visibility:visible;transform:translateX(0);}
+.wa-icon{width:22px;height:22px;flex-shrink:0;}
+.wa-text{white-space:nowrap;}
+
+/* Tooltip */
+.wa-tooltip{
+  position:absolute;
+  bottom:calc(100% + 10px);
+  right:0;
+  background:var(--color-text);
+  color:#fff;
+  padding:6px 12px;
+  border-radius:var(--radius-xs);
+  font-size:11px;
+  font-weight:500;
+  white-space:nowrap;
+  opacity:0;visibility:hidden;
+  transform:translateY(4px);
+  transition:all var(--transition-fast);
+  pointer-events:none;
+}
+.wa-tooltip::after{
+  content:'';
+  position:absolute;top:100%;right:20px;
+  border:5px solid transparent;
+  border-top-color:var(--color-text);
+}
+
+/* Mobile: hide text, show icon only */
+@media (max-width:880px){
+  .wa-float{padding:14px;border-radius:50%;}
+  .wa-text,.wa-tooltip{display:none;}
+  .wa-icon{width:24px;height:24px;}
+}
 
 /* ============================================
    RESPONSIVE

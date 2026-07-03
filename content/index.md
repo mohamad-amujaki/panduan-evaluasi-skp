@@ -1,10 +1,8 @@
 <span class="eyebrow">Surat Sekretaris Jenderal &middot; 2 Juli 2026</span>
 
-<h1 class="title">Evaluasi Kinerja Pegawai ASN Kemenkes<br>Periode Triwulan II Tahun 2026</h1>
+<h1 class="title">Evaluasi Kinerja Pegawai ASN Kemenkes Periode Triwulan II Tahun 2026</h1>
 
-<p class="subtitle">Panduan ringkas berdasarkan Surat Nomor KP.02.04/A/14795/2026 tentang pelaksanaan
-evaluasi kinerja pegawai ASN Kemenkes triwulan II 2026 — mencakup ketentuan distribusi predikat,
-tahapan evaluasi, panel kalibrasi, hak pegawai, hingga ketentuan tunjangan kinerja.</p>
+<p class="subtitle">Panduan ringkas berdasarkan Surat Nomor KP.02.04/A/14795/2026 tentang pelaksanaan evaluasi kinerja pegawai ASN Kemenkes triwulan II 2026 — mencakup ketentuan distribusi predikat, tahapan evaluasi, panel kalibrasi, hak pegawai, hingga ketentuan tunjangan kinerja.</p>
 
 <div class="grid-cards">
   <div class="stat-card"><div class="num">5</div><div class="lbl">Predikat Kinerja</div><div class="sub">Sangat Baik · Baik · Butuh Perbaikan · Kurang · Sangat Kurang</div></div>

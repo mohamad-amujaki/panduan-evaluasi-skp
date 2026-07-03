@@ -35,7 +35,7 @@
     }
   },
   "files": {
-    "includes": ["js/**/*.js", "scripts/**/*.js"],
+    "includes": ["js/app.js", "scripts/**/*.js"],
     "ignoreUnknown": true
   }
 }
