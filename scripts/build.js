@@ -14,14 +14,14 @@ const SECTION_MAP = [
     file: 'index.md',
     group: 'RINGKASAN',
     id: 'ringkasan',
-    title: 'Evaluasi Kinerja Triwulan II 2026',
+    title: 'Evaluasi Kinerja Triwulan II Tahun 2026',
   },
   {
     file: 'ketentuan-kinerja.md',
     group: 'KETENTUAN KINERJA',
     sections: [
       { id: 'predikat', title: 'Lima Predikat Kinerja', headingLevel: 2 },
-      { id: 'anomali', title: 'Anomali Distribusi TW1 2026', headingLevel: 2 },
+      { id: 'anomali', title: 'Anomali Distribusi Triwulan I', headingLevel: 2 },
       { id: 'komposisi', title: 'Komposisi Distribusi Predikat', headingLevel: 2 },
     ],
   },
@@ -41,8 +41,24 @@ const SECTION_MAP = [
       { id: 'panel-umum', title: 'Ketentuan Umum Panel Kalibrasi', headingLevel: 2 },
       { id: 'panel-peserta', title: 'Peserta & Tahapan Panel', headingLevel: 2 },
       { id: 'panel-fokus', title: 'Fokus Pembahasan Panel', headingLevel: 2 },
-      { id: 'panel-korelasi', title: 'Korelasi Predikat & Nilai (K1/K2/K3)', headingLevel: 2 },
+      {
+        id: 'panel-korelasi',
+        title: 'Korelasi Predikat, Nilai dan Hasil Pemetaan (K1/K2/K3)',
+        headingLevel: 2,
+      },
     ],
+  },
+  {
+    file: 'e-kinerja.md',
+    group: 'MONITORING E-KINERJA',
+    id: 'monitoring-eselon',
+    title: 'Pimpinan Unit Eselon I',
+  },
+  {
+    file: 'monitoring-unit-kerja.md',
+    group: 'MONITORING E-KINERJA',
+    id: 'monitoring-unit',
+    title: 'Pimpinan/Pejabat Penilai',
   },
   {
     file: 'referensi.md',
@@ -55,18 +71,8 @@ const SECTION_MAP = [
 ];
 
 function splitByH2(markdown) {
-  // Split markdown by --- separator or ## headings
   const parts = markdown.split(/\n---\n/);
   return parts.map((p) => p.trim()).filter(Boolean);
-}
-
-function extractTitle(html, fallback) {
-  // Try to extract title from <h1 class="title"> or ## heading
-  const match = html.match(/<h1[^>]*>(.*?)<\/h1>/s);
-  if (match) return match[1].replace(/<[^>]*>/g, '').trim();
-  const h2 = html.match(/##\s+(.+)/);
-  if (h2) return h2[1].trim();
-  return fallback;
 }
 
 function buildSections() {

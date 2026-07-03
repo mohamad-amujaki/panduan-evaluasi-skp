@@ -183,57 +183,6 @@
   });
 
   // ===========================
-  // ON-SCROLL TOC HIGHLIGHT
-  // ===========================
-  const sectionElements = () => document.querySelectorAll('.section.active');
-
-  function updateScrollHighlight() {
-    const active = document.querySelector('.section.active');
-    if (!active) return;
-
-    const h2s = active.querySelectorAll('h2');
-    let currentId = null;
-
-    h2s.forEach((h2) => {
-      const rect = h2.getBoundingClientRect();
-      if (rect.top <= 120) {
-        // Find which section this h2 belongs to by checking nearby content
-        currentId = h2.textContent.trim();
-      }
-    });
-
-    // Highlight corresponding nav item based on scroll
-    const sections_arr = Array.from(active.querySelectorAll('h2'));
-    const scrollPos = window.scrollY + 120;
-
-    // Simple: highlight active section's nav item (already done by showSection)
-    // For sub-section tracking, we'd need intersection observer
-  }
-
-  // Use IntersectionObserver for efficient scroll tracking
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const id = entry.target.id.replace('sec-', '');
-            const navItem = document.querySelector(`.nav-item[data-id="${id}"]`);
-            if (navItem && !navItem.classList.contains('active')) {
-              // Don't auto-switch, just visual indicator
-            }
-          }
-        });
-      },
-      { threshold: 0.3 },
-    );
-
-    // Observe all sections after they're created
-    setTimeout(() => {
-      document.querySelectorAll('.section').forEach((sec) => observer.observe(sec));
-    }, 100);
-  }
-
-  // ===========================
   // KEYBOARD NAVIGATION
   // ===========================
   function showKbdHint(text) {

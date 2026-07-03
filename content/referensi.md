@@ -1,8 +1,8 @@
 ## Contoh Surat Keterangan Pelaksanaan Panel Kalibrasi
 
-<span class="eyebrow">Lampiran III</span>
+<span class="eyebrow">Lampiran</span>
 
-<h1 class="title">Contoh Surat Keterangan Pelaksanaan Panel Kalibrasi</h1>
+<h1 class="title">Contoh Surat Keterangan Pelaksanaan Panel Kalibrasi Kinerja</h1>
 
 <p class="subtitle">Format yang ditandatangani oleh pimpinan unit/satuan kerja dan diunggah
 ke Aplikasi E-Kinerja.</p>
@@ -10,7 +10,7 @@ ke Aplikasi E-Kinerja.</p>
 <pre class="code-block"><code>KOP SURAT
 
 Surat Keterangan Pelaksanaan Kalibrasi Kinerja Pegawai
-Periode Triwulan I/II/III/Tahunan Tahun 2026
+Periode Triwulan II Tahun 2026
 Nomor: ...............................
 
 Sehubungan dengan Pelaksanaan Evaluasi Kinerja Pegawai ASN pada Unit/Satuan Kerja ....
@@ -34,11 +34,11 @@ Nama Pimpinan Unit/Satuan Kerja
 
 ---
 
-## Garis Waktu Evaluasi Triwulan II 2026
+## Timeline Evaluasi Triwulan II Tahun 2026
 
 <span class="eyebrow">Ringkasan Tanggal Penting</span>
 
-<h1 class="title">Garis Waktu Evaluasi Triwulan II 2026</h1>
+<h1 class="title">Timeline Evaluasi Triwulan II Tahun 2026</h1>
 
 <table>
   <tr><th>Tanggal</th><th>Kegiatan</th></tr>
@@ -50,9 +50,7 @@ Nama Pimpinan Unit/Satuan Kerja
 
 <div class="callout">
   <div class="ic">📎</div>
-  <div class="body"><b>Dasar hukum tunjangan kinerja —</b> Peraturan Menteri Kesehatan Nomor
-  41 Tahun 2022 tentang Pelaksanaan Pemberian Tunjangan Kinerja bagi Pegawai di Lingkungan
-  Kemenkes.</div>
+  <div class="body"><b>Dasar hukum tunjangan kinerja —</b> Peraturan Menteri Kesehatan Nomor 41 Tahun 2022 tentang Pelaksanaan Pemberian Tunjangan Kinerja bagi Pegawai di Lingkungan Kemenkes.</div>
 </div>
 
 <p style="margin-top:28px;color:var(--color-text-muted);font-size:13.5px;">

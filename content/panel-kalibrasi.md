@@ -29,7 +29,7 @@
 
 ## Peserta & Tahapan Panel Kalibrasi
 
-<span class="eyebrow">Lampiran II · Bagian B & C</span>
+<span class="eyebrow">Lampiran · Bagian B & C</span>
 
 <h1 class="title">Peserta & Tahapan Panel Kalibrasi</h1>
 
@@ -58,7 +58,7 @@
 
 ## Fokus Pembahasan Panel Kalibrasi
 
-<span class="eyebrow">Lampiran II · Bagian D</span>
+<span class="eyebrow">Lampiran · Bagian D</span>
 
 <h1 class="title">Fokus Pembahasan Panel Kalibrasi</h1>
 
@@ -81,7 +81,7 @@
 
 ## Korelasi Hasil Pemetaan, Predikat, dan Rentang Nilai
 
-<span class="eyebrow">Lampiran II · Bagian E</span>
+<span class="eyebrow">Lampiran · Bagian E</span>
 
 <h1 class="title">Korelasi Hasil Pemetaan, Predikat, dan Rentang Nilai</h1>
 
